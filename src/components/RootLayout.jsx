@@ -5,15 +5,10 @@ const RootLayout = () =>{
 
     return(
       <>
-  <Navbar/>
-  <div className="row">
-
-
-  </div>
-
-  <main>
-    <Outlet/>
-  </main>
+    <Navbar/>
+    <main>
+      <Outlet/>
+    </main>
     
       </>
     )

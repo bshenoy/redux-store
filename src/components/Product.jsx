@@ -13,7 +13,7 @@ const Product = () =>{
     
     <>
       <div className='container'>
-      <div className='row' style={{ marginBottom: '10px' }}>
+      <div className='row' style={{ marginBottom: '10px', marginTop:'10px' }}>
         {products.map((product, index) => (
           <div className='col-12 col-sm-6 col-md-4 col-lg-3 mb-4' key={index}>
             <Card className='h-100 d-flex flex-column'>
